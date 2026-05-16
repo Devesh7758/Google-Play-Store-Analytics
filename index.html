@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Play Store Analytics Dashboard</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            color: #58a6ff;
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background: #161b22;
+            border-radius: 12px;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        .card h2 {
+            text-align: center;
+            color: #f0f6fc;
+        }
+
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Google Play Store Analytics Dashboard</h1>
+
+    <div class="dashboard">
+
+        <div class="card">
+            <h2>Task 1 - Rating vs Reviews</h2>
+            <iframe src="task1.html"></iframe>
+        </div>
+
+        <div class="card">
+            <h2>Task 2 - Choropleth Map</h2>
+            <iframe src="task2.html"></iframe>
+        </div>
+
+        <div class="card">
+            <h2>Task 3 - Revenue vs Installs</h2>
+            <iframe src="task3.html"></iframe>
+        </div>
+
+        <div class="card">
+            <h2>Task 4 - Time Series Trend</h2>
+            <iframe src="task4.html"></iframe>
+        </div>
+
+        <div class="card">
+            <h2>Task 5 - Bubble Chart</h2>
+            <iframe src="task5.html"></iframe>
+        </div>
+
+        <div class="card">
+            <h2>Task 6 - Stacked Area Chart</h2>
+            <iframe src="task6.html"></iframe>
+        </div>
+    </div>
+</body>
+</html>
+
+
